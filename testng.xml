@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="mobile-automation-framework">
+	<listeners>
+		<listener class-name="core.ListenerClass" />
+	</listeners>
+<parameter name="deviceName" value="sdk_gphone_x86" />
+	<test name="Test">
+		<classes>
+			<class name="tests.testMainClass">
+			</class>
+		</classes>
+	</test>
+</suite>

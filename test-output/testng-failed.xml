@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [mobile-automation-framework]">
+  <parameter name="deviceName" value="sdk_gphone_x86"/>
+  <listeners>
+    <listener class-name="core.ListenerClass"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.testMainClass">
+        <methods>
+          <include name="addItemInBasket"/>
+          <include name="setUpDriver"/>
+          <include name="closeDriver"/>
+          <include name="removeItemInBasket"/>
+          <include name="testFirst"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.testMainClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [mobile-automation-framework] -->
